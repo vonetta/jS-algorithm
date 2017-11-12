@@ -78,6 +78,8 @@
     <Content Include="fizzbuzz\index.html" />
     <Content Include="fizzbuzz\script.js" />
     <Content Include="harmless ransom note\index.html" />
+    <Content Include="palidrome\index.html" />
+    <Content Include="palidrome\script.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
