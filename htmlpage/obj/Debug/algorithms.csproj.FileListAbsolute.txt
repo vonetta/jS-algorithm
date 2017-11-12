@@ -1,0 +1,9 @@
+C:\Users\steve\OneDrive\Documents\JSAlgorithms\htmlpage\htmlpage\bin\htmlpage.dll.config
+C:\Users\steve\OneDrive\Documents\JSAlgorithms\htmlpage\htmlpage\bin\htmlpage.dll
+C:\Users\steve\OneDrive\Documents\JSAlgorithms\htmlpage\htmlpage\bin\htmlpage.pdb
+C:\Users\steve\OneDrive\Documents\JSAlgorithms\htmlpage\htmlpage\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\steve\OneDrive\Documents\JSAlgorithms\htmlpage\htmlpage\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\steve\OneDrive\Documents\JSAlgorithms\htmlpage\htmlpage\obj\Debug\algorithms.csprojResolveAssemblyReference.cache
+C:\Users\steve\OneDrive\Documents\JSAlgorithms\htmlpage\htmlpage\obj\Debug\algorithms.csproj.CoreCompileInputs.cache
+C:\Users\steve\OneDrive\Documents\JSAlgorithms\htmlpage\htmlpage\obj\Debug\htmlpage.dll
+C:\Users\steve\OneDrive\Documents\JSAlgorithms\htmlpage\htmlpage\obj\Debug\htmlpage.pdb
