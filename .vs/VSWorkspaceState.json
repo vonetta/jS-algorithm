@@ -2,8 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\htmlpage",
-    "\\htmlpage\\palidrome"
+    "\\htmlpage\\reverse words"
   ],
-  "SelectedNode": "\\htmlpage\\isUnique",
+  "SelectedNode": "\\htmlpage\\reverse words\\script.js",
   "PreviewInSolutionExplorer": false
 }

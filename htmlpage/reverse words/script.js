@@ -1,10 +1,14 @@
 function reverseWord(string) {
-    for (var i = string.length -1; i >= 0; i--) {
-        console.log(string[i])
-
+    var words = string.split(" ");
+  
+    for (var i = 0; i < words.length; i++) {
+        for (var j = words[i].length - 1; j >= 0; j--) {
+            console.log(words[i][j])
+        }
     }
     return string
+    
 }
 
-reverseWord("sam");
+reverseWord("sam is great");
 
