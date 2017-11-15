@@ -10,5 +10,5 @@ function reverseWord(string) {
     
 }
 
-reverseWord("sam is great");
+reverseWord("vonetta is great");
 

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Forms and Event Handlers</title>
+</head>
+<body>
+    <div class="container">
+        <form title="Car Registarion">
+            <label>Model</label>
+            <input id="model" />
+
+            <label>Make</label>
+            <input id="make" />
+
+            <label>Year</label>
+            <input id="year" />
+
+            <label>VIN</label>
+            <input id="vin" />
+            
+            <button id="registor">Registor</button>
+            <button id="cancel">Cancel</button>
+        </form>
+    </div>
+
+    <ul>
+        <li id="modelList"></li>
+        <li id="makeList"></li>
+        <li id="yearList"></li>
+        <li id="vinList"></li>
+    </ul>
+
+
+
+    <!--Jquery-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <script type="text/javascript">
+
+
+        var writeHtml = function () {
+            var input = {
+                make: $("#model").val(),
+                model: $("#make").val(),
+                year: $("#year").val(),
+                vin: $("#vin").val()
+
+            }
+            return input;
+        }
+
+        var registorButton = function (e) {
+            e.preventDefault();
+            var data = writeHtml();
+            store(data);
+        }
+
+        var store = function (data) {
+            $("#modelList").text(data.make);
+            $("#makeList").text(data.model);
+            $("#yearList").text(data.year);
+            $("#vinList").text(data.vin);
+        }
+
+        $(document).ready(function () {
+            $("#registor").on("click", registorButton);
+        });
+
+    </script>
+
+
+</body>
+</html>
