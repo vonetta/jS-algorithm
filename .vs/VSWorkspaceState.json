@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\htmlpage"
+    "\\htmlpage",
+    "\\htmlpage\\reverseArrayInPlace"
   ],
-  "SelectedNode": "\\htmlpage\\palidrome",
+  "SelectedNode": "\\htmlpage\\reverseArrayInPlace\\main.js",
   "PreviewInSolutionExplorer": false
 }
