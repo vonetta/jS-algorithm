@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\htmlpage",
+    "\\htmlpage\\mean",
     "\\htmlpage\\reverseArrayInPlace"
   ],
-  "SelectedNode": "\\htmlpage\\reverseArrayInPlace\\main.js",
+  "SelectedNode": "\\htmlpage\\mean\\main.js",
   "PreviewInSolutionExplorer": false
 }
